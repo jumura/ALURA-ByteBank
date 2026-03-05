@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        // Qual a versão do JS que será utilizado
+        "target": "ES2022",
+        // Pra onde irá todos os arquivos '.ts' compilados
+        "outDir": "./dist/js/",
+        // Garante que só irá gerar o arquivo '.js' caso NÃO tenha erros
+        "noEmitOnError": true
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
