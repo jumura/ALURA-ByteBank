@@ -1,14 +1,20 @@
-# Projeto Bytebank - Foco em TypeScript
-O Bytebank é um site em que o usuário irá poder realizar transferências, depósitos e até pagamento de boletos *(todos fictícios, obviamente)*. Feito com base no curso **TypeScript na prática: implemente um projeto com TypeScript e módulos**, da **Alura**
+# Projeto Bytebank 2.0 - Foco em TypeScript
+O Bytebank 2.0 é uma atualização do site, trocando o sistema antigo, que usava programação funcional, para um sistema novo, utilizando **programação orientada a objetos**
 <br><br>
-O intuito deste projeto é mais para aprendizado, iniciando meus estudos em **TypeScript**. O design da página *(HTML e CSS)* já existia, apenas desenvolvi a lógica usando TS.
+O objetivo desta atualização é para entender mais a fundo as diferenças entre **POO** e **FP**, usando *TypeScript*. Além disso, explorei um conceito novo do TS: **tipo genérico**.
+<br><br>
+Essa atualização do ByteBank foi feita com base no conteúdo de um curso da **ALURA**, chamado **TypeScript: aplicando orientação a objetos no Front-End**.
 
-## O que aprendi sobre o TypeScript
-- As principais diferenças entre *JavaScript vs Typescript*, e entendendo o propósito pelo qual o TS foi criado.
-- Como o TS aponta erros que normalmente não são apontados pelo JS **antes de subir para produção**, ajudando o desenvolvedor a evitar problemas mais sérios.
-- A tipagem de elementos, que deixa o código mais **fácil de compreender**, tanto pros dev quanto para linguagem.
-- A possibilidade de personalizar e criar **tipos customizáveis** usando o *type alias*, dando mais possibilidades ao dev.
+## O que aprendi neste curso
+- Aprofundei em alguns conceitos de TS, como os **tipos genéricos**
+- Entendi as diferenças entre o **Programção Funcional** vs **Programação Orientada a Objetos**.
 
-## Arquitetura do código
-- Dividi em três pastas principais: components *(Os componentes principais do ByteBank)*, types *(Tipos de dados, como Enums e Type alias)* e utils *(Funções de formatação)*.
-- Estruturei o código em módulos, facilitando na divisão responsabilidades de cada arquivo.
+### Programação Funcional
+- É baseado em funções matématicas.
+- Usa **funções puras**, ou seja, não podem mudar alguma **variável global** do projeto.
+- Principais conceitos: *imutabilidade, composição, recursão e abstração*.
+
+### Programação Orientada a Objetos
+- Como diz o nome, é baseado em **objetos**.
+- **Classes, atributos e métodos** estão presentes neste paradigma.
+- Principais conceitos: *encapsulamento, polimorfismo e herança*.
